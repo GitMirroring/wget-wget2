@@ -22,7 +22,7 @@ m4_pattern_allow([AX_CHECK_GNU_MAKE_HEADLINE])
 m4_pattern_allow([_AX_CODE_COVERAGE_GCOV_PROG_WITH])
 
 AC_PREREQ([2.71])
-AC_INIT([wget2],[2.2.1],[bug-wget@gnu.org],[wget2],[https://savannah.gnu.org/projects/wget])
+AC_INIT([wget2],[2.3.0],[bug-wget@gnu.org],[wget2],[https://savannah.gnu.org/projects/wget])
 
 AC_CONFIG_MACRO_DIRS([m4])
 AC_CONFIG_AUX_DIR([build-aux])
@@ -80,8 +80,8 @@ LT_INIT([dlopen])
 # 4. If any interfaces have been added, removed, or changed since the last update, increment current, and set revision to 0.
 # 5. If any interfaces have been added since the last public release, then increment age.
 # 6. If any existing interfaces have been removed or changed since the last public release, then set age to 0.
-AC_SUBST([LIBWGET_SO_VERSION], [4:0:0])
-AC_SUBST([LIBWGET_VERSION], [2.2.1])
+AC_SUBST([LIBWGET_SO_VERSION], [5:0:0])
+AC_SUBST([LIBWGET_VERSION], [2.3.0])
 
 #
 # Generate version defines for include file
